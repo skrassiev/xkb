@@ -1,0 +1,18 @@
+// Keyboard layout for ru-fonetic like on Mac
+
+partial alphanumeric_keys
+xkb_symbols "fonetic" {
+
+    include "ru(phonetic_YAZHERTY)"
+
+    name[Group1]= "Russian (fonetic)";
+
+    key <AD02>	{[      Cyrillic_sha,      Cyrillic_SHA ]};
+    key <AD11>	{[      Cyrillic_yu,       Cyrillic_YU  ]};
+    key <AD12>	{[      Cyrillic_zhe,      Cyrillic_ZHE ]};
+    key <AD13>	{[      Cyrillic_e,        Cyrillic_E ]};
+    key <AE11>	{[      Cyrillic_softsign, Cyrillic_SOFTSIGN ]};
+    key <AE12>	{[      Cyrillic_hardsign, Cyrillic_HARDSIGN ]};
+    key <TLDE>	{[      Cyrillic_shcha,    Cyrillic_SHCHA ]};
+};
+
