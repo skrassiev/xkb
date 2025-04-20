@@ -18,4 +18,4 @@ systemctl restart gdm.service
 
 * Add `Russian(fonetic)` keyboard layout to you session:
   * In GNOME: `Settings -> Keyboard -> Input Sources` and add `Russian (fonetic)`
-  * Check the ![visual layout](/images/ru_fonetic.png] 
+  * Check the ![visual layout](/images/ru_fonetic.png) 
