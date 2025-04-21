@@ -8,6 +8,7 @@ Instructions:
 
 ```bash
 cd xkb
+mkdir -p ~/.config
 cp -r home/user/.config/xkb ~/.config/xkb
 ```
 
